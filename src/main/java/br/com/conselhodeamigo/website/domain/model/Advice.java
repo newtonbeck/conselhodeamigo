@@ -1,13 +1,9 @@
-package br.com.conselhodeamigo.website.domain;
+package br.com.conselhodeamigo.website.domain.model;
 
 import java.time.Clock;
 import java.time.Instant;
 
 public class Advice {
-
-    public enum Type {
-        LOVE, WORK, MONEY;
-    }
 
     private String content;
 
